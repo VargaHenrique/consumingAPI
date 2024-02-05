@@ -1,0 +1,58 @@
+body, html {
+   background-image: url("https://static.wixstatic.com/media/639643_b9c1e57422484915aa0978d846a54a11~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin: 0;
+   padding: 0%;
+   font-family:Arial, Helvetica, sans-serif;
+}
+
+.galery {
+   display: flex;
+   
+   align-items: center;
+   margin-top: 1%;
+   padding: 6px;
+   margin-left: 8%;
+
+}
+
+.Walter{
+   margin-right: 10%;
+   padding: 0%;
+   border: 4px solid #ffffff;
+}
+.Jesse{
+   margin-left: 11%;
+   padding: 0%;
+   border: 4px solid #ffffff;
+}
+.Saul{
+   margin-left: 20%;
+   padding: 0%;
+   border: 4px solid #ffffff;
+}
+
+.Message {
+   display: flex;
+   color: yellow;
+   margin: 67px;
+   justify-content: center;
+}
+
+
+.LOGO {
+   display: flex;
+   justify-content: center;
+
+}
+
+p{
+   font-size:112%;
+}
+
+@media screen and (max-width: 780px) {
+   body {
+      width: 100%;
+   }
+}
